@@ -169,10 +169,39 @@ VALUES method
 
         course.values() returns the values from the dictionary
 
+_______**
 
 UPDATING & MUTATING DICTIONARIES
 
+    dictionary is a mutable (able to be mutated) datatype.
 
-    
+    to update OR add a value to a dictionary we use the name of the dictionary
+    with the existing or intended key in brackets, and assign the value with
+    the equal sign.  this will change OR add the key and value when executed
 
+        course['instructor'] = 'ashley'
+        *note - if the course dictionary does not have a key called 'instructor'
+         the above line of code will create it 
+
+    to delete a key / value pair we use the del() method; to delete the above key:value pair
+    we would use the following line of code;
+
+        del(course['instructor'])
+
+_______**
+
+ITERATING, PACKING AND UNPACKING DICTIONARIES
+
+items() method will return both key and value pair for a dictionary as individual
+tuples for each key:value pair within the dictionary.  Using .items() in a for loop
+will look like the following;
+
+    for key, value in course.items():
+        print(key)
+        print(value)
+
+    This code will print a list of the keys and their assoc. values as it iterates thru
+    each tuple that the items() method has created when executed against the course dictionary
+
+Packing with Dictionaries
 
