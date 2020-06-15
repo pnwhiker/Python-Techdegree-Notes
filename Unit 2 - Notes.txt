@@ -145,7 +145,34 @@ value of the associated value
     Order of the key / value pairs does not matter
 
 Accessing data inside the dictionary;
-    
 
+    Much like pulling values from lists, the dictionary name and the KEY are
+    used to pull the assocaited value(s), given the following dictionary for an example:
+
+    course = {'name':'Ryan', 'age':39, 'hometown':'Tualatin'}
+
+    to access name and print we would use the following code;
+
+        print(course['name']) which outputs Ryan
+
+KEYS method
+
+    the .keys() method returns a list of the (currently ordered) keys present in the
+    dictionary the method is called on, given the above dictionary as example
+
+        course.keys() returns the keys from the dictionary
+
+VALUES method
+
+    like the .keys method, .values() will return list of the associated values of the
+    keys present in the dictionary in the order the appear (currently)
+
+        course.values() returns the values from the dictionary
+
+
+UPDATING & MUTATING DICTIONARIES
+
+
+    
 
 
