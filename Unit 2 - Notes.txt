@@ -205,3 +205,34 @@ will look like the following;
 
 Packing with Dictionaries
 
+    passing variable arguments to a function in place of positional arguments looks
+    like assignment to those inidvidual arguments, replacing the string of arguments with
+    **kwargs will allow us to pass as many variable arguments as we need to to the 
+    assocaited function as in the following example;
+
+        def print_teacher(**kwargs):
+            for key, value in kwargs.items():
+                print(f'[key]: [value]')
+
+        print_teacher(name='ashley', job='instructor', topic='python')*
+
+        # function call returns
+
+            name: ashley
+            job: instructor
+            topic: Python
+
+        *note; keys are left of the assignment operator, values are to the right
+
+
+
+_______**
+
+DOUBLE UNDERS (DUNDER MAIN)
+
+Dunder = double-underscore or _ _ 
+
+_______**
+
+
+
