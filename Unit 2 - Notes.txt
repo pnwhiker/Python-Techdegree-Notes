@@ -232,7 +232,29 @@ DOUBLE UNDERS (DUNDER MAIN)
 
 Dunder = double-underscore or _ _ 
 
+>>> INPUT MORE STUDY
+
 _______**
 
+PYTHON COMPREHENSIONS WORKSHOP
 
+>>> INPUT MORE STUDY
 
+Used to create lists, dictionaries and sets automatically // less effort
+
+nums = range(1, 501)
+
+halves = [num/2 for num in nums]
+
+Creating a list using one line which iterates through, in this case, a list with a for loop
+and performs an operation on the values in nums
+
+>>> INPUT MORE STUDY
+
+_______**
+
+CLEANER CODE IN PYTHON
+
+PEP = Python Enhancement Proposal
+
+PEP8 = PEP that defines how python code should appear

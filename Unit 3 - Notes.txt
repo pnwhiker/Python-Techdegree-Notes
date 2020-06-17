@@ -1,0 +1,8 @@
+Objects & Classes
+
+Example of a class below, note - all class names start with a capital
+letter
+
+class Thief:
+    sneaky = True
+
